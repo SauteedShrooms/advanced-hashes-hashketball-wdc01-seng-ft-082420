@@ -165,8 +165,7 @@ end
 
 
 def team_colors(team)
-  get_team_helper(team)
-  end
+  get_team_helper(team)[:colors]
 end
 
 
