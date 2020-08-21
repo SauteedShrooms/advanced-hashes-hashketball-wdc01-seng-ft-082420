@@ -183,7 +183,11 @@ end
 
 
 def player_stats(player_name)
-  player_helper == (player_name)
+  player_helper.each do |player|
+    if player[:player_name] == (player_name)
+      return player
+    end
+  end
 end
 
 
