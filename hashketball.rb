@@ -165,6 +165,7 @@ end
 
 
 def team_colors(team)
+  binding.pry
   get_team_helper(team)[:colors]
 end
 
