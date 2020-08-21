@@ -195,6 +195,7 @@ def big_shoe_rebounds
   biggest_shoe = 0
   most_rebounds = 0
   game_hash.each do |team, team_info|
+    binding.pry
     team_info[:players].each do |player_stats|
       if biggest_shoe < player_stats[:shoe] && most_rebounds < player_stats[:rebounds]
         most_rebounds = player_stats[:rebounds]
