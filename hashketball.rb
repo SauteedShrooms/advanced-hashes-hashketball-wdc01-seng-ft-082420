@@ -183,7 +183,9 @@ end
 
 
 def player_stats(player_name)
-  player_helper
+  player_helper == (player_name)
 end
-binding.pry
+
+
+
 
