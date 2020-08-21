@@ -169,6 +169,11 @@ def team_colors(team)
 end
 
 
+def team_names
+  game_hash.map {|location, team| team[:team_name]}
+end
+
+
 def player_numbers(team)
   get_team_helper(team)[:players].map do |key, value|
     value[:number]
