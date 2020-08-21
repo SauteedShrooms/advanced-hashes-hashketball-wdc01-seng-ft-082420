@@ -192,6 +192,8 @@ end
 
 
 def big_shoe_rebounds
+  biggest_shoe = 0
+  most_rebounds = 0
   
 end
 
