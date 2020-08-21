@@ -181,8 +181,9 @@ def player_numbers(team)
   end
 end
 
+
 def player_stats(player_name)
-  binding.pry
-  player_helper(player_name)
+  player_helper
 end
+binding.pry
 
