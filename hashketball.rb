@@ -136,7 +136,7 @@ end
 
 def get_team_helper(team)
   case team
-  when game_hash[:home][:team_name] == (team)
+  when game_hash[:home][:team_name]
     binding.pry
     game_hash[:home]
   else 
